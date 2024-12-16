@@ -1,0 +1,75 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.profile-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-container h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.profile-container p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 8px 15px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    font-size: 1em;
+    color: #555;
+}
+
+.skills li:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #4CAF50;
+}
+</style>
+</head>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
